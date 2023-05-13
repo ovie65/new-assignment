@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignmenr 2 </title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: grey;
+            color: red;
+        }
+    </style>
+    <p><h1>WITH COPIOUS EXAMPLES, EXPLAIN THE SIMILARITIES ABD DIFFERENCES BETWEEN THE CONST,VAR,LET,JAVASCRIPT and KEYWORDS.</h1></p>
+    <p><h3>
+        JavaScript is a programming language that provides various keywords for creating and manipulating variables. Among these keywords, const, var, and let are commonly used for declaring variables. Here are the similarities and differences between them:
+        Similarities:</h3></p>
+        <ol>
+            <li>All three keywords are used for declaring variables in JavaScript. </li>
+            <li>They can all store data values of various types, such as numbers, strings, and objects. </li>
+            <li>They can all be used within functions, loops, and other blocks of code</li>
+        </ol>
+        <p><h1><i>DIFFERENCES :</i></h1></p>
+        <ol>
+            <li>var was the original keyword for declaring variables in JavaScript, and it is still widely used. </li>
+            <li>Variables declared with var have function scope, meaning they are accessible within the function they are declared in, regardless of where in the function they are declared.</li>
+            <li>If a var variable is declared outside a function, it becomes a global variable, meaning it is accessible throughout the entire program.</li>
+            <li>Unlike let and const, var variables can be redeclared and reassigned.</li>
+        </ol>
+        <p><h2>example</h2> function myFunction() {
+              var x = 5;
+          </br>if (true) {
+            </br>var x = 10;
+       </br> console.log(x); // outputs 10
+ </br> }
+</br>  console.log(x); // outputs 10
+</br> } 
+            </p>
+            <p>
+                let keyword:
+            </br> let keyword:
+let was introduced in ECMAScript 6 as a replacement for var.
+Variables declared with let have block scope, meaning they are only accessible within the block of code they are declared in.
+let variables can be reassigned, but they cannot be redeclared within the same block of code.
+Example:
+javascript
+let was introduced in ECMAScript 6 as a replacement for var.
+Variables declared with let have block scope, meaning they are only accessible within the block of code they are declared in.
+let variables can be reassigned, but they cannot be redeclared within the same block of code.
+</br>Example:
+javascript</br>
+
+</br>function myFunction() {
+ </br> let x = 5;
+ </br> if (true) {
+ </br>   let x = 10;
+  </br>  console.log(x); // outputs 10
+ </br> }
+ </br> console.log(x); // outputs 5
+}
+
+</br>const keyword:
+</br>const is used for declaring variables whose value cannot be changed.
+</br>Variables declared with const have block scope, meaning they are only accessible within the block of code they are declared in.
+</br>const variables cannot be reassigned or redeclared within the same block of code.
+</p>
+<p>Example:
+javascript
+
+</br>function myFunction() {
+  </br>const x = 5;
+  </br>st x = 10;
+    </br>console.log(x); // outputs 10
+  }
+  </br>console.log(x); // outputs 5
+</br>In summary, var, let, and const are all used for declaring variables in JavaScript, but they have different scoping rules and restrictions on reassignment and redeclaration. The javascript keyword is used to indicate that a block of code is written in the JavaScript programming language, while keywords refer to the reserved words in JavaScript that have special meanings and cannot be used as variable names. Examples of keywords include if, else, for, while, switch, case, break, continue, function, and return.
+
+            </p>
+        
+</body>
+</html>
